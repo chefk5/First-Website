@@ -1,0 +1,125 @@
+<html>
+<Title>FarTravel.com</title>
+<link rel="stylesheet" type="text/css" href="design.css">
+<head>
+<style>
+.leftcolumn{
+	width:50%;
+	float: left;
+	padding-top: 30px;
+	margin-left: 10px;
+}
+aside{
+	width:50%
+	float:right;
+	margin-right: 1%;
+	text-align: center;
+
+	
+}
+
+</style>
+	<script src="jquery-2.1.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("button").click(function()
+			{
+				$("#pic1").fadeIn();
+				$("#pic2").fadeIn("slow");
+				$("#pic3").fadeIn(1000);
+				$("#pic4").fadeIn("slow");
+				$("#pic5").fadeIn("slow");
+				$("#pic6").fadeIn("slow");
+			});
+			
+		});
+
+</script>
+
+<body>
+<div id="allpage">
+<div id="callus">
+	<p ><img src="logo2.png" width="50px" height="50px" style="margin-right: 10px; border-radius: 30%;"><b><font color="white" size="10px" ><b>FarTravel</b></font>
+	<img src="travel1.jpg" width="50px" height="50px" style="margin-left: 50px">
+	<img src="travel2.jpg" width="50px" height="50px">
+	<img src="travel3.jpg" width="50px" height="50px">
+	<img src="travel4.jpg" width="50px" height="50px">
+	<img src="travel5.jpg" width="50px" height="50px">
+	<img src="travel6.jpg" width="50px" height="50px">
+	<img src="travel7.jpg" width="50px" height="50px"></p>
+</div>	
+<nav>
+		<ul>
+		<li id="active"><a href="Home.html">Home</a></li>
+		<li><a>Destinations</a>
+			<ul>
+				<li><a href="Lebanon1.html">Lebanon</a></li>
+				<li><a href="brazil.html">Brazil</a></li>
+				<li><a href="indonesia.html">Indonesia</a></li>
+			</ul></li>
+
+		<li><a href="flight.html">Flights</a>
+		</li>
+		<li><a href="hotels.html">Hotels</a>
+		<ul>
+				<li><a href="5stars.html">Description</a></li>
+				<li><a href="3stars.html">Book!</a></li>
+			</ul></li>
+		<li><a href="trips.html">Trips</a></li>
+		
+	</ul>
+</nav>
+<br><br><br>
+<center><h4>Lebanon</h4></center>
+<br>
+<p>Get to know our cities: <button>Click Here!</button></p>
+
+<div style="position: relative; left: 0; top: 0; text-align: center;" >
+  <img src="lebanonmap.jpg" id="pic" style="position: relative; top: 0; left: 300; "  />
+  <img src="tripoli.jpg" id="pic6" title="Tripoli" height="160" width="300" style="position: absolute; top: -30px; left: 150px; display: none;"/>
+  <img src="jebeil.jpg" id="pic1"title="Byblos" height="160" width="300" style="position: absolute; top: 132px; left: 150px;  display: none;"/>
+  <img src="beirut.jpg" id="pic2"title="Beirut" height="160" width="300" style="position: absolute; top: 292px; left: 150px;  display: none;"/>
+  <img src="saida.jpg" id="pic3"title="Saida" height="160" width="300"style="position: absolute; top: 452px; left:150px; display: none;"/>
+  <img src="sour.jpg" id="pic4"title="Tyre" height="160" width="300"style="position: absolute; top: 612px; left:150px; display: none;"/>
+
+
+
+
+   
+  
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+  
+ 
+
+</div>
+	
+
+
+
+
+
+
+
+
+</div>
+<p style="text-align: center; padding:0px;">&#169;All Rights Reserved - 2016</p>
+</body>
+<script src="jquery-2.1.1.min.js"></script>
+
+<script>
+$(document).ready(function()
+{
+$("#a1").click(function()
+{
+$("#pic1").animate({
+height:'toggle'
+});
+});
+});
+
+</html>
+
+
+
+

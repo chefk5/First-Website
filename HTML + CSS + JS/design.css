@@ -1,0 +1,113 @@
+body{
+	background-image: url("Elegant_Background-4.jpg");
+}
+h1,h2,h3,h4{
+	font-family: verdana;
+	text-align: center;
+	padding-left: 5%;
+	color: #000080;
+
+}
+p{
+	padding: 2%;
+	color:#000080;
+}
+#allpage{
+	margin: 50 auto;
+	max-width: 1020px;
+	width: 80%;
+	background: 	#fffafa;
+	border: 1px solid #878E63;
+	border-radius: 2px;
+	box-shadow: 0 0 10px 0px rgba(12,3,25,0.8);
+}
+nav{
+	margin:0 150px;
+}
+nav ul {
+    font-family: Verdana;
+    font-size: 14px;
+    margin: 0;
+    
+    list-style: none;
+    border-radius: 10%;
+    
+
+}
+
+nav ul li {
+    display: block;
+    position: relative;
+    float: left;
+    width: 19%;
+    border:1px solid #ffffff;
+
+
+}
+
+nav li ul {
+    display: none;
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;<!--Changes menu titles color-->
+    border-top: 5px solid #ffffff;
+    padding: 15px 100px 25px 15px;
+    background: Blue;<!--Changes menu titles background-->
+    margin-left: 1px;
+    white-space: nowrap;
+
+
+}
+
+nav li li ul {
+    display: block;
+    
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid #ffffff;
+    background: yellow; <!-- sublist background color-->
+
+    padding: 0px 25px 0px 10px;
+    
+   margin-right: 200px;
+    top: 0px;
+    white-space: nowrap;
+    visibility:hidden;
+}
+
+nav li li:hover ul { 
+        visibility:hidden; 
+}
+
+
+nav ul li a:hover {
+background:orange;<!--hover lighitn color-->
+}
+
+nav li:hover ul {    
+    display: block;
+    position: absolute;
+}
+
+nav li:hover li {
+    float: none;
+    font-size: 11px;
+}
+
+nav li:hover a { background: #000080; }
+
+nav li:hover li a:hover {
+    background: orange;
+}
+#callus{
+	width: 100%;
+	height: auto;
+	background: blue;
+	overflow: hidden;
+	text-align:left;
+
+}

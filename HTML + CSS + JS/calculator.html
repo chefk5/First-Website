@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+</head>
+<body bgcolor="gold">
+<div id="all">
+<p>Calculate your expenses:</p>
+<form name="form1">
+	<b>Number of Days:</b> <input type="text" name="nbrofdays" ><br>
+	<b>Number of Guests:</b> <input type="text" name="nbrofper" >
+	</form>
+	<p><b>Room Style</b></p><select name="sel" id="selid">
+
+ <option></option>
+ <option value="1">Ocean</option>
+ <option selected="selected" value="2">Mountain</option>    
+ <option value="3">City</option></select>
+ <button onclick="enter()">Total</button>
+	
+
+
+
+
+</div>
+</body>
+<script type="text/javascript">
+	function enter(){
+		var days=parseInt(document.form1.nbrofdays.value);
+		var guest=parseInt(document.form1.nbrofper.value);
+		var e = document.getElementById("selid");
+		var strUser = e.options[e.selectedIndex].value;
+		var strUsert = e.options[e.selectedIndex].text;
+
+		if(strUsert=="City")
+		window.alert("The total cost is: "+days*30*guest);
+		else
+			window.alert("The total cost is: "+days*50*guest);
+
+
+	
+	}
+	</script>
+</html>
